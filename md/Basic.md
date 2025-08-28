@@ -115,4 +115,34 @@
 - create A descion function to find the output
 - so training point is not needed while drawing the conclusion 
 
+# Challenges in Machine learning
 
+### Data Collection
+- can get data by
+    - API calling
+    - web scrapping
+### Insufficient Data/labelled Data
+- more data is directly proportional to better model accuracy
+- Algorithm is not consider when you have large chunk of data 
+### Non-representative Data
+- training the model with half data
+    - half data means it doesnt tell full story about anything 
+    - usually happen when only one factor is consider to collect the data
+- SAMPLING BIAS
+    - baisedness while collecting the data
+### Poor qulity data
+- data is in many format
+- half part is missing
+- usually 60% time is given to improve the quality of data
+### Irrelevent data
+- unuseful coloms in data
+- garabage in garabge out
+### overfitting
+- when model is exposed to new set of data
+
+### underfitting
+- simplicity
+- model is not trained with all trainig points
+### Software Integration
+### Offline Learning/Deployment
+### Cost Involved
