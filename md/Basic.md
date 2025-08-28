@@ -71,3 +71,48 @@
 
     - Reward: A numerical signal the environment gives the agent after each action. It can be positive (for a good action) or negative (for a bad one). The goal is to maximize the total, long-term reward.
 
+## Other type of Machine learning
+
+### Batch learning
+- used all the set of data at once  to train the model
+- this is generaly done offline/locally
+- once it is trained then you deploy it
+- once data is trained and deployed it get static 
+- model need to be trained periodically
+- Disadvantage
+    - Lots of data
+    - hardware limitation
+    - Availability
+### Online learning
+- model is trained at server
+- data is distributed in small chunk of data and then model is trained by those chunks
+- do incremental learning in mini batches sequentially
+- when to use
+    - where there is a concept drift
+    - cost effective
+    - faster solution
+- River python lib use for online learning
+- vowal wabbit python lib use for online learning and for reinforcement learning too
+- out of core learning
+    - data is so huge that it can not get load
+    - so batch learning is used
+    - model is trained offline
+- problem 
+    - risky[corrupted data]
+    - tricky
+
+## Types of ML based on how it is learned
+
+### Instance based learning
+- plot a graph and find the similarity
+- with new data find the similarity with the exisiting data
+- similarity is basically distance between them and based on surrounding its judge
+
+### Model based learning
+- find mathematical relation between input and output
+- based on mathematical equation it judge incoming inputs 
+- mostly used in industry
+- create A descion function to find the output
+- so training point is not needed while drawing the conclusion 
+
+
