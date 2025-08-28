@@ -146,3 +146,16 @@
 ### Software Integration
 ### Offline Learning/Deployment
 ### Cost Involved
+
+
+## Machine Learning Development Lifecycle
+
+### frame the problems
+### gathering data
+### data preprocessing
+### exploratary data analysis
+### feature engineering
+### model training evaluation
+### model deployment
+### testing
+### optimize
